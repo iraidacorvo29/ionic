@@ -1,0 +1,34 @@
+page-about ion-title {
+  text-align: center; }
+page-about .about-header {
+  background-color: #CAE3FF;
+  padding: 16px;
+  width: 100%;
+  min-height: 150px;
+  text-align: center; }
+page-about .about-header img {
+  max-width: 200px;
+  min-height: 115px;
+  margin-left: -15px;
+  padding: 25px 0 20px 0; }
+page-about .about-info p {
+  color: #697072;
+  text-align: left; }
+page-about .about-info ion-icon {
+  width: 20px; }
+page-about .md .about-info [text-right],
+page-about .wp .about-info [text-right] {
+  margin-right: 0; }
+page-about .ios .about-info {
+  text-align: center; }
+page-about .ios .about-info ion-icon {
+  width: auto;
+  margin-right: 10px; }
+page-about h4 {
+  font-size: 38px;
+  font-style: italic;
+  color: #333;
+  padding: 10px;
+  text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050; }
+
+/*# sourceMappingURL=about.css.map */

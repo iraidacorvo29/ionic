@@ -1,0 +1,54 @@
+<!--
+  Generated template for the Pago page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Pago</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label stacked>País:</ion-label>
+    <ion-textarea [(ngModel)]="datos.pais"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Tipo de tarjeta:</ion-label>
+    <ion-select [(ngModel)]="datos.tipotarjeta">
+      <ion-option [value]="visa">Visa</ion-option>
+      <ion-option [value]="mastercard">Master Card</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Tarjeta:</ion-label>
+    <ion-textarea [(ngModel)]="datos.tarjeta"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Caducidad:</ion-label>
+    <ion-textarea [(ngModel)]="datos.caducidad"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>CVV:</ion-label>
+    <ion-textarea [(ngModel)]="datos.cvv"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Primer nombre:</ion-label>
+    <ion-textarea [(ngModel)]="datos.primernombre"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Apellidos:</ion-label>
+    <ion-textarea [(ngModel)]="datos.apellidos"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>Código postal:</ion-label>
+    <ion-textarea [(ngModel)]="datos.cp"></ion-textarea>
+  </ion-item>
+  <button ion-button  (click)="pagar()">Confirmar Compra</button>
+</ion-content>
+

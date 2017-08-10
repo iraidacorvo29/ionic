@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,qBAAS;EACP,UAAU,EAAC,MAAM",
+"sources": ["search.scss"],
+"names": [],
+"file": "search.css"
+}
